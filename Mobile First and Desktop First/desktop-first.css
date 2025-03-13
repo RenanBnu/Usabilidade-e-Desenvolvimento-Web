@@ -1,0 +1,38 @@
+/* desktop-first.css */
+
+/* Estilos padrão para telas grandes */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+}
+
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+    body {
+        background-color: #f0f0f0;
+    }
+    main {
+        padding: 10px;
+    }
+}
